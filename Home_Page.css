@@ -1,0 +1,68 @@
+div{
+    /* All Divions of Page */
+    font-family: 'Times New Roman', Times, serif;
+    color: #e06546;
+}
+.Header{
+    /* First Division: Header 
+    Full Block */
+    background-color: #3d5a80;
+    color: white;
+    border :white;
+    border-style: double;
+    height: 140px;
+    /* border-style: dashed; */
+    text-align: left; 
+}
+    .Header h3{
+        font-style: italic;
+        text-align: center;
+    }
+.NavBar{
+    /* Second Division: NavBar 
+    Full Block */
+    overflow: hidden; 
+}
+    .NavBar a{
+        /* Second Division: NavBar 
+        "a" links */
+        color:white;
+        background-color: #3d5a80;
+        float: left; 
+        display: block;
+        text-align: center;
+        padding: 14px 50px;
+        text-decoration: none; 
+        border-style:double;
+    }
+    .NavBar a:hover{
+        /* Second Division: NavBar 
+        hovering over the links (mouse over link) */
+        background-color: white;
+        color:#3d5a80;
+    }
+.Body{
+    /* Third Division: About Me 
+    Full Block */
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px; 
+}
+    .Body ul{
+        font-size: 13px; 
+    }
+    .LeftSide{
+        flex: 30%;
+        border:#3d5a80;
+    }
+    .RightSide{
+        flex: 70%;
+        border:#3d5a80;
+    }
+
+.Footer{
+    /* padding: 20px; */
+    background-color: #3d5a80;
+    height: 100px;
+}
